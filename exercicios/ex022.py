@@ -1,4 +1,2 @@
-a ="Concatenando"
-b ="duas strings"
-c = a + " " + b
-print(c)
+for x in [0, 1, 2]:
+ pass

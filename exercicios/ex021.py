@@ -3,6 +3,6 @@ import pygame
 
 pygame.mixer.init()
 pygame.init()
-pygame.mixer.music.load('ex021_Tokyo.mp3')
+pygame.mixer.music.load('ex021_Naruto.mp3')
 pygame.mixer.music.play()
 pygame.event.wait()
