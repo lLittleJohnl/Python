@@ -1,2 +1,4 @@
-a = "Comprimento"
-print(len(a))
+a ="Concatenando"
+b ="duas strings"
+c = a + " " + b
+print(c)
