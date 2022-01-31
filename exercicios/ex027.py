@@ -1,13 +1,4 @@
-class Comida:
-    def __init__(strogonoff, tipo, acomp):
-        strogonoff.tipo = tipo
-        strogonoff.acomp = acomp
-
-    def funcao(fome):
-        a = ("Eu adoro comer um " + fome.tipo)
-        b = (" com " + fome.acomp)
-        print(a + b)
-
-prato = Comida("Strogonoff de frango", "coquinha gelada")
-del acomp
-prato.funcao()
+nome = str(input("Digite seu nome completo: ")).strip()
+n = nome.split()
+print("Seu primeiro nome é {}".format(n[0]))
+print("Seu último nome é {}".format(n[len(n) - 1]))
