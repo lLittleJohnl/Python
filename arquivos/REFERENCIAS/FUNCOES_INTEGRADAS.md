@@ -33,41 +33,41 @@ Segue abaixo um conjunto de funções integradas do Python.
 * **hasattr( )**           Retorna True se o objeto especificado tem o atributo especificado (propriedade / método)
 * **hash( )**              Retorna o valor hash de um objeto especificado
 * **help( )**              Executa o sistema de ajuda embutido
-**hex( )**               Converte um número em um valor hexadecimal
-**id( )**                Retorna o id de um objeto
-**input( )**             Permitindo entrada do usuário
-**int( )**               Retorna um número inteiro
-**isinstance( )**        Retorna True se um objeto especificado é uma instância de um objeto especificado
-**issubclass( )**        Retorna True se uma classe especificada é uma subclasse de um objeto especificado
-**iter( )**              Retorna um objeto iterador
-**len( )**               Retorna o comprimento de um objeto
-**list( )**              Retorna uma lista
-**locals( )**            Retorna um dicionário atualizado da tabela de símbolos local atual
-**map( )**               Retorna o iterador especificado com a função especificada aplicada a cada item
-**max( )**               Retorna o maior item em um iterável
-**memoryview( )**        Retorna um objeto de visualização de memória
-**min( )**               Retorna o menor item em um iterável
-**next( )**              Retorna o próximo item em um iterável
-**object( )**            Retorna um novo objeto
-**oct( )**               Converte um número em um octal
-**open( )**              Abre um arquivo e retorna um objeto de arquivo
-**ord( )**               Converte um inteiro que representa o Unicode do caractere especificado
-**pow( )**               Retorna o valor de x à potência de y
-**print( )**             Imprime no dispositivo de saída padrão
-**property( )**          Obtém, define, exclui uma propriedade
-**range( )**             Retorna uma sequência de números, começando em 0 e incrementos em 1 (por padrão)
-**repr( )**              Retorna uma versão legível de um objeto
-**reversed( )**          Retorna um iterador reverso
-**round( )**             Arredonda um número
-**set( )**               Retorna um novo objeto definido
-**setattr( )**           Define um atributo (propriedade / método) de um objeto
-**slice( )**             Retorna um pedaço do objeto
-**ordenado( )**          Retorna uma lista ordenada
-**staticmethod( )**      Converte um método em um método estático
-**str( )**               Retorna um objeto string
-**sum( )**               Soma os itens de um iterador
-**super( )**             Retorna um objeto que representa a classe pai
-**tuple( )**             Retorna uma tupla
-**type( )**              Retorna o tipo de um objeto
-**vars( )**              Retorna a propriedade **dict** de um objeto
-**zip( )**               Retorna um iterador, de dois ou mais iteradores
+* **hex( )**               Converte um número em um valor hexadecimal
+* **id( )**                Retorna o id de um objeto
+* **input( )**             Permitindo entrada do usuário
+* **int( )**               Retorna um número inteiro
+* **isinstance( )**        Retorna True se um objeto especificado é uma instância de um objeto especificado
+* **issubclass( )**        Retorna True se uma classe especificada é uma subclasse de um objeto especificado
+* **iter( )**              Retorna um objeto iterador
+* **len( )**               Retorna o comprimento de um objeto
+* **list( )**              Retorna uma lista
+* **locals( )**            Retorna um dicionário atualizado da tabela de símbolos local atual
+* **map( )**               Retorna o iterador especificado com a função especificada aplicada a cada item
+* **max( )**               Retorna o maior item em um iterável
+* **memoryview( )**        Retorna um objeto de visualização de memória
+* **min( )**               Retorna o menor item em um iterável
+* **next( )**              Retorna o próximo item em um iterável
+* **object( )**            Retorna um novo objeto
+* **oct( )**               Converte um número em um octal
+* **open( )**              Abre um arquivo e retorna um objeto de arquivo
+* **ord( )**               Converte um inteiro que representa o Unicode do caractere especificado
+* **pow( )**               Retorna o valor de x à potência de y
+* **print( )**             Imprime no dispositivo de saída padrão
+* **property( )**          Obtém, define, exclui uma propriedade
+* **range( )**             Retorna uma sequência de números, começando em 0 e incrementos em 1 (por padrão)
+* **repr( )**              Retorna uma versão legível de um objeto
+* **reversed( )**          Retorna um iterador reverso
+* **round( )**             Arredonda um número
+* **set( )**               Retorna um novo objeto definido
+* **setattr( )**           Define um atributo (propriedade / método) de um objeto
+* **slice( )**             Retorna um pedaço do objeto
+* **ordenado( )**          Retorna uma lista ordenada
+* **staticmethod( )**      Converte um método em um método estático
+* **str( )**               Retorna um objeto string
+* **sum( )**               Soma os itens de um iterador
+* **super( )**             Retorna um objeto que representa a classe pai
+* **tuple( )**             Retorna uma tupla
+* **type( )**              Retorna o tipo de um objeto
+* **vars( )**              Retorna a propriedade **dict** de um objeto
+* **zip( )**               Retorna um iterador, de dois ou mais iteradores
