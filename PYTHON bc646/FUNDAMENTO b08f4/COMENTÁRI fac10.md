@@ -1,0 +1,34 @@
+# COMENTÁRIOS
+
+## Qual a função dos comentários?
+
+Os comentários podem ser usados para explicar o código Python, para tornar o código mais legível ou até para evitar a execução ao testar o código.
+
+## Criando um Comentário
+
+Os comentários começam com um `#`:
+
+### Exemplo:
+
+```python
+#Isso é um comentário
+print("Olá, Mundo!")
+
+#Os comentários podem ser colocados no final de uma linha e o Python irá ignorar o resto da linha:
+print("Olá, Mundo!") #Isso é um comentário
+```
+
+## Comentários de várias linhas
+
+Em Python não temos uma sintaxe para comentários de várias linhas como em outras linguagem, mas há uma maneira de fazer isso em Python. Você pode você pode usar uma string multilinha (usando aspas triplas) em seu código e colocar seu comentário dentro dela, pois o Python irá ignorar uma string que não foi atribuída a uma variável.
+
+### Exemplo:
+
+```python
+"""
+Isso é um comentário
+escrito
+em mais de uma linha
+"""
+print("Olá, Mundo!")
+```
