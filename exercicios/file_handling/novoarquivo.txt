@@ -1,3 +1,0 @@
-Bem-vindo programador,
-Acredito que esteja aprendendo a manipular arquivo.
-Este arquivo existe para fins de teste.
