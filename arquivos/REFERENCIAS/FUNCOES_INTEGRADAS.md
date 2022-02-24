@@ -4,7 +4,7 @@ Segue abaixo um conjunto de funções integradas do Python.
 
 Funções | Descrição | 
 :---------     | :------ |
-abs( )         | Retorna o valor absoluto de um número |
+abs( )         | Retorna o valor absoluto de um número
 all( )         | Retorna True se todos os itens em um objeto iterável forem verdadeiros
 any( )         | Retorna True se qualquer item em um objeto iterável for verdadeiro
 ascii( )       | Retorna uma versão legível de um objeto. Substitui caracteres não ascii por caracteres de escape
