@@ -1,7 +1,7 @@
-# MÓDULOS(BIBLIOTECAS)
+# MÓDULOS
 
-[MÓDULOS](/arquivos/MODULOS/)
+* [**MÓDULOS**](/arquivos/MODULOS/)
 
-[MÓDULO RANDOM](/arquivos/MODULOS/)
+* [**RANDOM**](/arquivos/MODULOS/)
 
-[PANDAS](/arquivos/MODULOS/)
+* [**PANDAS**](/arquivos/MODULOS/)
