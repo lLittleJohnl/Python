@@ -5,7 +5,7 @@ Material público para o ensino básico de Python para alunos iniciantes. Acesse
 - [Exercícios para treinar](exercicios)
 
 # Sobre o conteúdo
-As informações contidas nesses documentos foram retiradas de várias fontes na internet.
-O que fiz foi condensar todo conteúdo em um só lugar para aqueles que buscam conteúdo em português.
-Críticas e sugestões são sempre bem-vindas.
-Estou sempre atualizando o conteúdo.
+<p>As informações contidas nesses documentos foram retiradas de várias fontes na internet.</p>
+<p>O que fiz foi condensar todo conteúdo em um só lugar para aqueles que buscam conteúdo em português.</p>
+<p>Críticas e sugestões são sempre bem-vindas.</p>
+<p>Estou sempre atualizando o conteúdo.</p>
