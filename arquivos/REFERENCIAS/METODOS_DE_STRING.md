@@ -4,8 +4,8 @@ Python tem um conjunto de métodos embutidos que você pode usar em strings.
 
 **Nota:** Todos os métodos de string retornam novos valores. Eles não mudam a string original.
 
-Método | Descrição | 
-:---------     | :------ |
+Método | Descrição  
+:---------     | :------ 
 capitalize( )	 | Converte o primeiro caractere em maiúsculas
 casefold( )	   | Converte string em minúsculas
 center( )	     | Retorna uma string centralizada
