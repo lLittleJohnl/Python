@@ -12,7 +12,7 @@
 
 * [**TIPOS DE DADOS**](/arquivos/FUNDAMENTOS/1.6-TIPOS_DE_DADOS.md)
 
-* [**STRINGS**](/arquivos/FUNDAMENTOS/1.7-STRINGS.md.md)
+* [**STRINGS**](/arquivos/FUNDAMENTOS/1.7-STRINGS.md)
 
 * [**NÚMEROS**](/arquivos/FUNDAMENTOS/1.8-NÚMEROS.md)
 
