@@ -8,14 +8,14 @@
 
 * [**A FUNÇÃO PRINT()**](/arquivos/FUNDAMENTOS/1.4-A_FUNÇÃO_PRINT().md)
 
-* [**VARIÁVEIS**](/arquivos/FUNDAMENTOS/1.4-VARIÁVEIS.md)
+* [**VARIÁVEIS**](/arquivos/FUNDAMENTOS/1.5-VARIÁVEIS.md)
 
-* [**TIPOS DE DADOS**](/arquivos/FUNDAMENTOS/1.5-TIPOS_DE_DADOS.md)
+* [**TIPOS DE DADOS**](/arquivos/FUNDAMENTOS/1.6-TIPOS_DE_DADOS.md)
 
-* [**STRINGS**](/arquivos/FUNDAMENTOS/1.6-STRINGS.md.md)
+* [**STRINGS**](/arquivos/FUNDAMENTOS/1.7-STRINGS.md.md)
 
-* [**NÚMEROS**](/arquivos/FUNDAMENTOS/1.7-NÚMEROS.md)
+* [**NÚMEROS**](/arquivos/FUNDAMENTOS/1.8-NÚMEROS.md)
 
-* [**BOOL**](/arquivos/FUNDAMENTOS/1.8-BOOL.md)
+* [**BOOL**](/arquivos/FUNDAMENTOS/1.9-BOOL.md)
 
-* [**OPERADORES**](/arquivos/FUNDAMENTOS/1.9-OPERADORES.md)
+* [**OPERADORES**](/arquivos/FUNDAMENTOS/1.10-OPERADORES.md)
