@@ -13,7 +13,7 @@ fromEmail = 'seuemail@gmail.com'
 # corpo do e-mail, destinatários, arquivos anexos
 mailSubject = "Escreva seu título"
 #Dê uma olhada em html para customizar seu email
-mailContentHtml ="<p>Escreva seu email</p>"
+mailContentHtml ="Escreva seu email"
 #Aqui você adiciona os destinatários
 recepientsMailList = ["seuemail@gmail.com"]
 
@@ -23,8 +23,7 @@ def sendEmail(smtpHost, smtpPort, mailUname, mailPwd, fromEmail, mailSubject, ma
     msg['From'] = fromEmail
     msg['To'] = ','.join(recepientsMailList)
     msg['Subject'] = mailSubject
-    # msg.attach(MIMEText(mailContentText, 'plain'))
-    msg.attach(MIMEText(mailContentHtml, 'html'))
+    msg.attach(MIMEText(mailContentText, 'plain'))
 
     # Enviar objeto mensagem como email usando smptplib
     s = smtplib.SMTP(smtpHost, smtpPort)

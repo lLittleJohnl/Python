@@ -3,56 +3,48 @@ from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from email import encoders
-import os
 
-# mail server parameters
-smtpHost = "smtp.gmail.com"
-smtpPort = 587
-mailUname = 'seuemail@gmail.com'
-mailPwd = 'suasenha'
-fromEmail = 'seuemail@gmail.com'
+# SMTP - Simple Mail Transfer Protocol
+# parâmetros do servidor do e-mail
+smtpHost:str = "smtp.gmail.com"
+smtpPort:int = 587
+server = smtplib.SMTP(smtpHost, smtpPort)
+# TLS = Transport Layer Security
+server.ehlo()
+server.starttls()
+from_adress = 'joaovitorpessoa10@gmail.com'
+password = 'bbexyjmecnrbsxpc'
+server.login(from_adress, password)
 
-# mail body, recepients, attachment files
-mailSubject = "Email automático de Python"
-mailContentHtml ="""
-<p>Olá, Tudo bem?</p>
-<p>Eu sou uma IA programada por LittleJohn
-<p>Isso é um <b>teste</b> usando envio de email por comando de voz em um script de python script.
-<p>A biblioteca <b>smtplib</b> foi utilizada juntamento com <p>pinwin32</p>
-"""
-recepientsMailList = ["remetente@gmail.com"]
-attachmentFpaths = ["smtp.png", "poster.png"]
+# parâmetros do email
+to_adress = 'joaovitorpessoa10@gmail.com'
+subject = 'Documento - Demandas ISOC'
+content ="""
+            <p>Prezados</p>
+            <p>Segue em anexo documentação conforme acordado.</p>'
+         """
 
-def sendEmail(smtpHost, smtpPort, mailUname, mailPwd, fromEmail, mailSubject, mailContentHtml, recepientsMailList, attachmentFpaths):
-    # create message object
-    msg = MIMEMultipart()
-    msg['From'] = fromEmail
-    msg['To'] = ','.join(recepientsMailList)
-    msg['Subject'] = mailSubject
-    # msg.attach(MIMEText(mailContentText, 'plain'))
-    msg.attach(MIMEText(mailContentHtml, 'html'))
+msg = MIMEMultipart()
+msg['From'] = from_adress
+msg['To'] = to_adress
+msg['Subject'] = subject
+body = MIMEText(content, 'html')
+msg.attach(body)
 
-    # create file attachments
-    for aPath in attachmentFpaths:
-        # check if file exists
-        part = MIMEBase('application', "octet-stream")
-        part.set_payload(open(aPath, "rb").read())
-        encoders.encode_base64(part)
-        part.add_header('Content-Disposition', 'attachment; filename="{0}"'.format(os.path.basename(aPath)))
-        msg.attach(part)
+# O anexo é enviado de forma binária
+file_path = "path_do_arquivo"
+file_name = 'nome_do_arquivo.extensão'
 
-    # Send message object as email using smptplib
-    s = smtplib.SMTP(smtpHost, smtpPort)
-    s.starttls()
-    s.login(mailUname, mailPwd)
-    msgText = msg.as_string()
-    sendErrs = s.sendmail(fromEmail, recepientsMailList, msgText)
-    s.quit()
-
-    # check if errors occured and handle them accordingly
-    if not len(sendErrs.keys()) == 0:
-        raise Exception("Errors occurred while sending email", sendErrs)
-
-sendEmail(smtpHost, smtpPort, mailUname, mailPwd, fromEmail,mailSubject, mailContentHtml, recepientsMailList, attachmentFpaths)
-
-print("execution complete...")
+# RB = Read Binary 
+attachment = open(file_path, 'rb')
+# Lendo o arquivo em RB e codificando em base 64
+att = MIMEBase('application','octet-stream')
+att.set_payload(attachment.read())
+encoders.encode_base64(att)
+# Cabeçalho
+att.add_header('Content-Disposition',f'attachment; filename = {file_name}')
+attachment.close()
+msg.attach(att)
+server.sendmail(msg['From'], msg['To'], msg.as_string())
+server.quit()
+print("MISSION COMPLETE!")
