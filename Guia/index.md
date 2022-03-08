@@ -3,7 +3,7 @@
 <details>
 <summary>Fundamentos</summary>
 
-* [**Introdução**](/arquivos/FUNDAMENTOS/1.1-INTRODUÇÃO.md)
+* [**Introdução**](Python/Guia/arquivos/1_Fundamentos/1.1-INTRODUÇÃO.md)
 * [**Instalação**](/arquivos/FUNDAMENTOS/1.2-PRIMEIROS_PASSOS.md)
 * [**Comentários**](/arquivos/FUNDAMENTOS/1.3-COMENTÁRIOS.md)
 * [**A função print( )**](/arquivos/FUNDAMENTOS/1.4-A_FUNÇÃO_PRINT().md)
