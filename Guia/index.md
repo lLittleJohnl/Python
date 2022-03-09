@@ -4,7 +4,7 @@
 <summary>Fundamentos</summary>
 
 * [**Introdução**](arquivos/1_Fundamentos/1.1-Introducao.md)
-* [**Instalação**](arquivos/1_Fundamentos/1.2-Primeiros_passos.md)
+* [**Instalação**](arquivos/1_Fundamentos/1.2-Instalacao.md)
 * [**Comentários**](arquivos/1_Fundamentos/1.3-Comentarios.md)
 * [**A função print( )**](arquivos/1_Fundamentos/1.4-A_funcao_print().md)
 * [**Variáveis**](arquivos/1_Fundamentos/1.5-Variaveis.md)
