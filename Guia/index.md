@@ -3,24 +3,24 @@
 <details>
 <summary>Fundamentos</summary>
 
-* [**Introdução**](Python/Guia/arquivos/1_Fundamentos/1.1-INTRODUÇÃO.md)
-* [**Instalação**](/arquivos/FUNDAMENTOS/1.2-PRIMEIROS_PASSOS.md)
-* [**Comentários**](/arquivos/FUNDAMENTOS/1.3-COMENTÁRIOS.md)
-* [**A função print( )**](/arquivos/FUNDAMENTOS/1.4-A_FUNÇÃO_PRINT().md)
-* [**Variáveis**](/arquivos/FUNDAMENTOS/1.5-VARIÁVEIS.md)
-* [**Tipos de dados**](/arquivos/FUNDAMENTOS/1.6-TIPOS_DE_DADOS.md)
-* [**Strings**](/arquivos/FUNDAMENTOS/1.7-STRINGS.md)
-* [**Números**](/arquivos/FUNDAMENTOS/1.8-NÚMEROS.md)
-* [**Bool**](/arquivos/FUNDAMENTOS/1.9-BOOL.md)
-* [**Operadores**](/arquivos/FUNDAMENTOS/1.10-OPERADORES.md)
+* [**Introdução**](arquivos/1_Fundamentos/1.1-Introducao.md)
+* [**Instalação**](arquivos/1_Fundamentos/1.2-Primeiros_passos.md)
+* [**Comentários**](arquivos/1_Fundamentos/1.3-Comentarios.md)
+* [**A função print( )**](arquivos/1_Fundamentos/1.4-A_funcao_print().md)
+* [**Variáveis**](arquivos/1_Fundamentos/1.5-Variaveis.md)
+* [**Tipos de dados**](arquivos/1_Fundamentos/1.6-Tipos_de_dados.md)
+* [**Strings**](arquivos/1_Fundamentos/1.7-Strings.md)
+* [**Números**](arquivos/1_Fundamentos/1.8-Numeros.md)
+* [**Bool**](arquivos/1_Fundamentos/1.9-Bool.md)
+* [**Operadores**](arquivos/1_Fundamentos/1.10-Operadores.md)
 </details>
 
 <details>
 <summary>Estruturas de Controle</summary>
   
-* [**If, Elif, Else...**](/arquivos/ESTRUTURASDECONTROLE/2.1-IF&ELSE.md)
-* [**While**](/arquivos/ESTRUTURASDECONTROLE/2.2-WHILE.md)
-* [**For**](/arquivos/ESTRUTURASDECONTROLE/2.3-FOR.md)
+* [**If, Elif, Else...**](arquivos/2_Estruturas_de_controle/2.1-If_Else.md)
+* [**While**](arquivos/2_Estruturas_de_controle/2.2-While.md)
+* [**For**](arquivos/2_Estruturas_de_controle/2.3-For.md)
 </details>
  
  <details>
