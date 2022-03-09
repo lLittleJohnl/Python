@@ -1,8 +1,7 @@
 # ![logo](Guia/arquivos/images/2560px-Python_logo_1990s.svg.png)
 Material público para o ensino básico de Python para alunos iniciantes. Acesse o material em .md, analise o código disponibilizado para cada exercício.
 
-- [Texto das aulas](aulas-md)
-- [Exercícios para treinar](exercicios)
+- [Material](Guia/index.md)
 
 # Sobre o conteúdo
 <p>As informações contidas nesses documentos foram retiradas de várias fontes na internet.</p>
