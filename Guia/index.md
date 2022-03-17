@@ -24,21 +24,6 @@
 </details>
  
 <details>
-<summary>Estruturas Compostas</summary>
-
-* [**Matrizes**](arquivos/3_Estruturas_compostas/3.1-Matrizes.md)
-* [**Listas**](arquivos/3_Estruturas_compostas/3.2-Lista.md)
-* [**Tuplas**](arquivos/3_Estruturas_compostas/3.3-Tuplas.md)
-* [**Sets**](arquivos/3_Estruturas_compostas/3.4-Sets.md)
-* [**Dicionários**](arquivos/3_Estruturas_compostas/3.5-Dicionarios.md)
-* [**Funções**](arquivos/3_Estruturas_compostas/3.5-Dicionarios.md)
-* [**Lambda**](arquivos/3_Estruturas_compostas/3.7-Lambda.md)
-* [**Classes e objetos**](arquivos/3_Estruturas_compostas/3.8-Classes_e_objetos.md)
-* [**Heranças**](arquivos/3_Estruturas_compostas/3.9-Herancas.md)
-* [**Try e except**](arquivos/3_Estruturas_compostas/3.10-Try_e_except.md)
-</details>
-
-<details>
 <summary>Manipulação de Arquivos</summary>
 
 * [**Início**](arquivos/4_Manipulacao_de_arquivos/4.1-Inicio.md)
