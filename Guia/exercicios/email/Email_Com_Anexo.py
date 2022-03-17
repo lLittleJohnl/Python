@@ -13,7 +13,7 @@ server = smtplib.SMTP(smtpHost, smtpPort)
 server.ehlo()
 server.starttls()
 from_adress = 'joaovitorpessoa10@gmail.com'
-password = 'bbexyjmecnrbsxpc'
+password = ''
 server.login(from_adress, password)
 
 # parâmetros do email
