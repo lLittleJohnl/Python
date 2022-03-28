@@ -1,0 +1,16 @@
+# PLOTAGEM
+
+Pandas usa o método `plot()` para criar diagramas, mas podemos usar o Pyplot, um submódulo da biblioteca Matplotlib para visualizar o diagrama na tela.
+
+### Exemplo:
+
+Importe pyplot do Matplotlib e visualize nosso DataFrame:
+
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv('')
+df.plot()
+plt.show()
+```
