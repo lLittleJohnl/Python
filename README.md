@@ -1,4 +1,4 @@
-# ![logo](Guia/arquivos/images/2560px-Python_logo_1990s.svg.png)
+# ![logo](guia/arquivos/images/2560px-Python_logo_1990s.svg.png)
 # Sobre o conteúdo
 <p>As informações contidas nesses documentos foram retiradas de várias fontes na internet.</p>
 <p>O que fiz foi condensar todo conteúdo em um só lugar.</p>
