@@ -1,2 +1,2 @@
 # Python
-Criado para compartilhar informações acerca da linguagem.
+Criado para compartilhar informações acerca da linguagem de programação Python
