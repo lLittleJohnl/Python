@@ -1,3 +1,7 @@
+import pandas as pd
+
+df = pd.read_csv(r'C:\Users\joaov\Documentos\VSCODE\Python\projects\data_science\dados\base_cadastro.CSV', delimiter=',', encoding='utf-8')
+
 # Enriquecimento: AAA
 # df.loc[df.["ictEntityEquipType"]=='BTS', 'Technology'] = 'Live'
 # df.loc[df.["ictEntityEquipType"]=='BTS', 'ictEntityTier1'] = 'iSOC Transporte'

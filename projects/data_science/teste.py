@@ -8,6 +8,6 @@ import pandas as pd
 
 df = pd.read_csv(r'C:\Users\joaov\Documentos\VSCODE\Python\projects\data_science\dados\base_elementos.CSV', delimiter=',', encoding='utf-8')
 
-F_BRAS = df[(df['CI_NAME'].str.contains("^RTBA", na=False)) & (df['EQUIPTYPE'] =='BRAS')]
-print(F_BRAS)
+F_AAA = df[(df['CI_NAME'].str.contains("^AAA", regex=True)) & (df['EQUIPTYPE'] =='AAA')]
+print(F_AAA)
 #F_Acess_Point.to_excel("teste.xlsx")
