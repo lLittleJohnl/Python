@@ -11,7 +11,7 @@ import pandas as pd
 df = pd.read_csv(r'C:\Users\joaov\Documentos\VSCODE\Python\projects\data_science\dados\base_elementos.CSV', delimiter=',', encoding='utf-8')
 
 # Filtros:
-F_AAA = df[(df['CI_NAME'].str.contains("^AAA", na=False)) & (df['EQUIPTYPE'] =='AAA')]
+F_AAA = df[(df['CI_NAME'].str.contains("^AAA", regex=True)) & (df['EQUIPTYPE'] =='AAA')]
 F_ACCP = df[(df['CI_NAME'].str.contains("^[A-Z]{2,5}|^ap", regex=True)) & (df['EQUIPTYPE'] =='Access Point')]
 F_ACW = df[(df['CI_NAME'].str.contains("^ACW|^ASW", regex=True)) & (df['EQUIPTYPE'] =='ACW')]
 F_AGR = df[(df['CI_NAME'].str.contains("^AGR", regex=True)) & (df['EQUIPTYPE'] =='ACW')]
@@ -42,7 +42,3 @@ F_MWE = df[(df['CI_NAME'].str.contains("^[A-Z]{2}\d{4}$", na=False)) & (df['EQUI
 # F_BLADE = sem padrão
 
 # nome_da_variavel.to_csv("nome_do_arquivo.csv")
-# print(df[(df['CI_NAME'].str.contains("^(?![X])[A-Z]{4,5}\d{2}$", na=False)) & (df['EQUIPTYPE'] =='BTS')])
-
-
-
